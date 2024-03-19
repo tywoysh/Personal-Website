@@ -40,22 +40,18 @@ html {
 .second-half-container {
     display: flex;
     justify-content: center;
-}
-
-.title-and-description {
-    display: flex;
     flex-direction: column;
-    padding: 5px;
 }
 
 .title {
     font-size: 40px;
+    color: #272343;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .description {
     font-size: 20px;
-    width: 430px;
+    color: #272343;
 }
 
 .pic {
@@ -66,4 +62,5 @@ html {
     font-family: cursive;
     font-size: 30px;
     text-align: center;
+    color: #272343;
 }
