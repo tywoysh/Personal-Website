@@ -64,3 +64,45 @@ html {
     text-align: center;
     color: #272343;
 }
+
+.about-page-header {
+    color: #272343;
+    text-align: center;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.first-about-header, .second-about-header, .third-about-header {
+    color: #272343;
+}
+
+.first-about-section {
+    color: #272343;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid;
+}
+
+.second-about-section {
+    color: #272343;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid;
+}
+
+.third-about-section {
+    color: #272343;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid;
+}
+
+.section-item {
+    padding: 5px;
+}
