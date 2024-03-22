@@ -2,7 +2,7 @@
 
 Check out my Personal Website Below!
 
-![personal website](home-page.png?raw=true "Tyler Woyshner's Portfolio Site")
+![personal website](images/home-page.png?raw=true "Tyler Woyshner's Portfolio Site")
 
 You can learn all kinds of things about me on my Personal Portfolio Site:
 
