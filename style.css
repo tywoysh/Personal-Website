@@ -181,6 +181,27 @@ html {
     padding: 2vw;
     width: 65vw;
     margin: auto;
+    margin-bottom: 30px;
+}
+
+.second-project {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 2vw;
+    width: 65vw;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.third-project {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 2vw;
+    width: 65vw;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .p-and-img-container {
@@ -195,8 +216,34 @@ html {
 @media screen and (max-width: 625px) {
 .p-and-img-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap-reverse;
 };
     
+}
+
+.second-p-and-img-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width: 95%; */
+}
+
+@media screen and (max-width: 625px) {
+.second-p-and-img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+};
+    
+}
+
+.second-f-img {
+    margin-right: 10px;
+}
+
+.second-f-paragraphs {
+    margin-top: -3vh;
 }
