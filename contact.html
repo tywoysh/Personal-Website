@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TJW Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <header class="page-header">
+      <h1 class="header-name">Tyler Woyshner</h1>
+      <nav class="nav-bar">
+        <a class="nav-element" href="index.html"><u>Home</u></a>
+        <a class="nav-element" href="about.html">About</a>
+        <a class="nav-element" href="portfolio.html">Portfolio</a>
+        <a class="nav-element" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Contact Form -->
+
+    <main>
+      <h1 class="contact-header">Contact Me:</h1>
+      <form id="form" action="success.html" target="_blank" method="get">
+        <label class="form-element" id="name-label" for="name">Name:</label>
+        <input class="form-element" id="name-box" type="text" value="" />
+        <label class="form-element" id="email-label" for="email">Email:</label>
+        <input class="form-element" id="email-box" type="email" value="" />
+        <label class="form-element" id="message-label" for="message"
+          >Message:</label
+        >
+        <textarea
+          class="form-element"
+          id="textarea-label"
+          name="message"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <input
+          class="form-element"
+          id="submit-button"
+          type="submit"
+          value="Submit"
+        />
+      </form>
+    </main>
+  </body>
+</html>

@@ -69,40 +69,134 @@ html {
     color: #272343;
     text-align: center;
     border-bottom: 2px solid;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 5vh;
 }
 
 .first-about-header, .second-about-header, .third-about-header {
     color: #272343;
+    margin-left: 4vw;
 }
 
 .first-about-section {
     color: #272343;
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: space-between;
-    align-content: center;
+    margin: auto;
+    align-items: flex-start;
     border-bottom: 2px solid;
+    width: 90vw;
+    /* border: 2px solid black; */
 }
 
 .second-about-section {
     color: #272343;
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: space-between;
-    align-content: center;
+    margin: auto;
+    align-items: flex-start;
     border-bottom: 2px solid;
+    width: 90vw;
+    /* border: 2px solid black; */
 }
 
 .third-about-section {
     color: #272343;
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: space-between;
-    align-content: center;
+    margin: auto;
+    align-items: flex-start;
     border-bottom: 2px solid;
+    width: 90vw;
+    /* border: 2px solid black; */
 }
 
 .section-item {
     padding: 5px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 3vw;
+    background-color: #00bbf0;
+    border-radius: 25px;
+    width: 50%;
+    font-weight: bold;
+}
+
+.form-element {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#submit-button {
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+}
+
+#submit-button:hover {
+    background-color: #00bbf0;
+}
+
+#name-box:hover {
+    background-color: antiquewhite;
+}
+
+#email-box:hover {
+    background-color: antiquewhite;
+}
+
+#textarea-label:hover {
+    background-color: antiquewhite;
+}
+
+#textarea-label {
+    resize: none;
+}
+
+.contact-header {
+    text-align: center;
+    color: #272343;
+}
+
+.portfolio-header {
+    text-align: center;
+    color: #272343;
+    margin-bottom: 3vh;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid #272343;
+}
+
+.first-project {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 2vw;
+    width: 65vw;
+    margin: auto;
+}
+
+.p-and-img-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    /* width: 95%; */
+}
+
+@media screen and (max-width: 625px) {
+.p-and-img-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+};
+    
 }
