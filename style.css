@@ -2,10 +2,20 @@ html {
     background-color: #e3f6f5;
 }
 
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
 .page-header {
     display: flex;
     justify-content: space-between;
-    /* background-color: #2438d3; */
+    flex-wrap: wrap;
+    width: 80vw;
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     align-items: center;
     padding: 15px;
@@ -21,7 +31,7 @@ html {
 }
 
 .nav-element:hover {
-    color: #005792;
+    color: #ddf0fc;
 }
 
 .header-name {
@@ -37,10 +47,24 @@ html {
     margin: 5px;
 }
 
+@media screen and (max-width: 625px) {
+    .first-half-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    };
+        
+    }
+
+.title-and-description {
+    margin: 15px;
+}
+
 .second-half-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 5px;
 }
 
 .title {
@@ -90,6 +114,15 @@ html {
     /* border: 2px solid black; */
 }
 
+@media screen and (max-width: 625px) {
+    .first-about-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    };
+        
+    }
+
 .second-about-section {
     color: #272343;
     display: flex;
@@ -102,6 +135,15 @@ html {
     /* border: 2px solid black; */
 }
 
+@media screen and (max-width: 625px) {
+    .second-about-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    };
+        
+    }
+
 .third-about-section {
     color: #272343;
     display: flex;
@@ -113,6 +155,15 @@ html {
     width: 90vw;
     /* border: 2px solid black; */
 }
+
+@media screen and (max-width: 625px) {
+    .third-about-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    };
+        
+    }
 
 .section-item {
     padding: 5px;
@@ -246,4 +297,8 @@ html {
 
 .second-f-paragraphs {
     margin-top: -3vh;
+}
+
+.f-p1 {
+    margin: auto;
 }
